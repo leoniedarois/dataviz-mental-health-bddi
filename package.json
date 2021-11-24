@@ -1,0 +1,20 @@
+{
+  "name": "dataviz-take-care",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^6.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4",
+    "vite": "^2.6.4"
+  }
+}

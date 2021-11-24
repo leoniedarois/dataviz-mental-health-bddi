@@ -1,0 +1,76 @@
+.container {
+  margin: 10vh 10vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bigMargin {
+  margin-bottom: 80px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.flowerSvg {
+  path {
+    opacity: 0;
+    transform-origin: 73% 50%;
+    animation: dance 1s forwards;
+  }
+
+  .blue {
+    animation-delay: .5s;
+  }
+
+  .pink {
+    animation-delay: 1s;
+  }
+
+  .orange {
+    animation-delay: 1.5s;
+  }
+
+  .yellow {
+    animation-delay: 2s;
+  }
+
+  .green {
+    animation-delay: 2.5s;
+  }
+
+  .purple {
+    animation-delay: 3s;
+  }
+}
+
+@keyframes dance {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+

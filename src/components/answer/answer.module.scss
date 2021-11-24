@@ -1,0 +1,19 @@
+.component {
+  &__result {
+    font-family: 'Laca', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    font-size: 48px;
+  }
+
+  &__separator {
+    width: 100%;
+    height: 5px;
+    background: white;
+    margin-bottom: 48px;
+  }
+}

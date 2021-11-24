@@ -1,0 +1,16 @@
+.component {
+  display: flex;
+  position: relative;
+
+  &__left {
+    position: absolute;
+    bottom: -30px;
+    left: -40px;
+  }
+
+  &__right {
+    position: absolute;
+    bottom: -30px;
+    right: -40px;
+  }
+}

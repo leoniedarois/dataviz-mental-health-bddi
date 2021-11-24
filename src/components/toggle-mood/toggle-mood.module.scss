@@ -1,0 +1,31 @@
+.component {
+  &__button {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none;
+
+    .checkmark {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      height: 19px;
+      width: 19px;
+      background: #474747;
+      border-radius: 50%;
+    }
+
+    input {
+      opacity: 0;
+
+      &:checked {
+        ~ .checkmark {
+          background: white;
+        }
+      }
+    }
+  }
+}

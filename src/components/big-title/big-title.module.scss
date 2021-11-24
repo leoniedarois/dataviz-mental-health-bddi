@@ -1,0 +1,15 @@
+.component {
+  text-transform: uppercase;
+  margin: 0 0 25px 0;
+  font-size: 72px;
+  line-height: 40px;
+
+  span {
+    font-size: 36px;
+    text-transform: lowercase;
+    font-weight: 500;
+  }
+}
+.uppercase {
+   text-transform: uppercase !important;
+ }

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  background: #141719;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: 'Laca', sans-serif;
+}
