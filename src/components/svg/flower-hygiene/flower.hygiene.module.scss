@@ -1,0 +1,77 @@
+.component {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0;
+
+  &__number {
+    div:nth-child(1) {
+      position: absolute;
+      left: 10vw;
+      top: 0;
+    }
+
+    div:nth-child(2) {
+      position: absolute;
+      left: 15vw;
+      bottom: 30px;
+    }
+
+    div:nth-child(3) {
+      position: absolute;
+      right: 20vw;
+      bottom: 40px;
+    }
+
+    div:nth-child(4) {
+      position: absolute;
+      right: 18vw;
+      top: 40px;
+    }
+  }
+
+}
+
+.flowerSvg {
+  path {
+    opacity: 0;
+    transform-origin: 73% 50%;
+    animation: dance 1s forwards;
+  }
+
+  .first {
+    animation-delay: .5s;
+  }
+
+  .seconde {
+    animation-delay: 1s;
+  }
+
+  .third {
+    animation-delay: 1.5s;
+  }
+
+  .fourth {
+    animation-delay: 2s;
+  }
+
+  .fith {
+    animation-delay: 2.5s;
+  }
+
+  .six {
+    animation-delay: 3s;
+  }
+}
+
+@keyframes dance {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

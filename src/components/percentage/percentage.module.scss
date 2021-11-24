@@ -1,0 +1,14 @@
+.component {
+  font-family: 'Laca', sans-serif;
+  text-align: left;
+
+  &__percentage {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
