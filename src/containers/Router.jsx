@@ -4,6 +4,7 @@ import Home from "./Home"
 import Hygiene from "./Hygiene"
 import Mood from "./Mood"
 import '../Router.scss'
+import Confess from "./Confess"
 
 const Router = () => {
   return (
@@ -12,6 +13,7 @@ const Router = () => {
         <Route path="/" element={<Home />} />
         <Route path="/mood" element={<Mood />} />
         <Route path="/hygiene" element={<Hygiene />} />
+        <Route path="/confess" element={<Confess />} />
       </Routes>
     </div>
   )

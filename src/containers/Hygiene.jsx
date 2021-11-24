@@ -2,9 +2,9 @@ import '../Router.scss'
 import Title from "../components/title/title";
 import Answer from "../components/answer/answer";
 import Question from "../components/question/question";
-import FlowerHygiene from "../components/svg/flower-hygiene/flower-hygiene";
-import BlobsSommeil from "../components/svg/flower-hygiene/blobs-sommeil";
-import FlowerSommeil from "../components/svg/flower-hygiene/flower-sommeil";
+import FlowerHygiene from "../components/svg/flower-hygiene";
+import BlobsSommeil from "../components/svg/blobs-sommeil";
+import FlowerSommeil from "../components/svg/flower-sommeil";
 
 const Hygiene = () => {
   return (
