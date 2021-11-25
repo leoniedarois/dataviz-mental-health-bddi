@@ -16,7 +16,7 @@ const Mood = () => {
   const initCanvas = () => {
     ctx = canvas.current.getContext('2d')
     canvas.current.width = window.innerWidth / 2
-    canvas.current.height = window.innerHeight
+    canvas.current.height = window.innerHeight - 120
   }
 
   const drawRect = (x, y, w, h, colorFrom) => {
@@ -98,6 +98,7 @@ const Mood = () => {
       <div className="center">
         <canvas ref={canvas}/>
       </div>
+      <p>1 carré = 1 réponse d’un·e étudiant·e</p>
     </>
   )
 }
