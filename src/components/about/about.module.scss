@@ -1,0 +1,58 @@
+@import "src/assets/styles/colors";
+
+.component {
+  background: $yellow;
+  color: $black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+
+  &__title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+
+  &__img {
+    margin-left: 40px;
+  }
+
+  &__background {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+
+    &:hover {
+      animation: up .5s;
+    }
+  }
+
+  &__about {
+    font-size: 38px;
+  }
+
+  &__contact {
+    font-size: 30px;
+  }
+}
+
+.question {
+  z-index: 20;
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+}
+
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}

@@ -1,16 +1,18 @@
 import React from 'react'
-import {Route, Routes} from "react-router-dom";
-import Home from "./Home"
-import Hygiene from "./Hygiene"
-import Mood from "./Mood"
+import {Route, Routes} from 'react-router-dom'
+import Home from './Home'
+import Hygiene from './Hygiene'
+import Mood from './Mood'
 import '../Router.scss'
-import Confess from "./Confess"
-import Psy from "./Psy";
-import Sweet from "./Sweet";
+import Confess from './Confess'
+import Psy from './Psy'
+import Sweet from './Sweet'
+import About from '../components/about/about'
 
 const Router = () => {
   return (
     <div className="container">
+      <About/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mood" element={<Mood />} />
