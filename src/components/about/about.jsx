@@ -12,7 +12,6 @@ const About = () => {
   const icon = showSection ? closeIcon : questionIcon
 
   const showAbout = () => {
-    console.log("olala c cliqué")
     setShowSection(!showSection)
   }
 

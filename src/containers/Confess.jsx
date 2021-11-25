@@ -9,7 +9,7 @@ const Confess = () => {
   return (
     <>
       <Title content="se confier pour les bddi" color={"#F09065"}/>
-      <Answer result={true}>
+      <Answer>
         Les BDDI ont globalement des difficultés à se confier… Les capacités d’écoute de leurs interlocuteurs ne sont
         toutefois généralement pas à remettre en cause.
       </Answer>

@@ -1,7 +1,8 @@
-import styles from "./answer.module.scss"
+import styles from './answer.module.scss'
 
-const Answer = ({children, result}) => {
-  const answer = result ? "Bonne réponse !" : "Pas exactement.."
+const Answer = ({children}) => {
+  const userAnswer = localStorage.getItem('result')
+  const answer = userAnswer === "true" ? "Bonne réponse !" : "Pas exactement.."
   return (
     <>
       <span className={styles.component__result}>{answer}</span><br/>

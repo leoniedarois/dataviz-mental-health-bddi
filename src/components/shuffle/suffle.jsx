@@ -7,7 +7,6 @@ const Shuffle = ({data}) => {
   const shuffleQuote = () => {
     const randomElement = data[Math.floor(Math.random() * data.length)].feelgood
     setFeelGood(randomElement)
-    console.log("coucou ça clique", randomElement)
   }
 
   return (

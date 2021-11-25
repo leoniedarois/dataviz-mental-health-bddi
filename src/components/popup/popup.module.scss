@@ -1,10 +1,30 @@
 @import "src/assets/styles/colors";
+
+.background {
+  z-index: 25;
+  background: $black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: white;
-  width: 400px;
+  width: 350px;
   padding: 40px;
   border-radius: 36px;
   color: $black;
+
+  .close {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
 
   &__title {
     text-transform: uppercase;

@@ -8,7 +8,7 @@ const Psy = () => {
   return (
     <>
       <Title content="les psy et les bddi" color={"#9567EF"}/>
-      <Answer result={true}>
+      <Answer>
         La majorité des BDDI a déjà consulté un·e psychologue ou aimerait en consulter.
       </Answer>
       <Question content="as-tu déjà consulté un·e psychologue ?"/>

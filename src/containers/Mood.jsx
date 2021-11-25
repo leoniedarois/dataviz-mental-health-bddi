@@ -83,7 +83,7 @@ const Mood = () => {
   return (
     <>
       <Title content="Humeur des BDDI" color={"#D95D71"}/>
-      <Answer result={true}>
+      <Answer>
         Bonne nouvelle, les BDDI avaient plutôt le moral le jour où ils ont répondu au formulaire !
         On notera toutefois un bilan plus mitigé quand la question porte sur l’intégralité du mois de novembre.
       </Answer>

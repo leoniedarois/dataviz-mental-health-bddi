@@ -1,16 +1,17 @@
 import '../Router.scss'
-import Title from "../components/title/title";
-import Answer from "../components/answer/answer";
-import Question from "../components/question/question";
-import FlowerHygiene from "../components/svg/flower-hygiene";
-import BlobsMeal from "../components/svg/blobs-meal";
-import FlowerSommeil from "../components/svg/flower-sommeil";
+import Title from '../components/title/title'
+import Answer from '../components/answer/answer'
+import Question from '../components/question/question'
+import FlowerHygiene from '../components/svg/flower-hygiene'
+import BlobsMeal from '../components/svg/blobs-meal'
+import FlowerSommeil from '../components/svg/flower-sommeil'
 
 const Hygiene = () => {
+
   return (
     <>
       <Title content="Hygiène de vie des BDDI" color={"#EFCE67"}/>
-      <Answer result={false}>
+      <Answer>
         Les BDDI considèrent majoritairement avoir une bonne hygiène de vie… Malgré une tendance générale à sauter
         occasionnellement des repas et dormir 6h par nuit.
       </Answer>
