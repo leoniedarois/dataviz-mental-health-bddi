@@ -15,7 +15,7 @@ const Sweet = () => {
   return (
     <div>
       <Title content="un peu de douceur" color={"#63CBCF"}/>
-      <Question content="qu’est-ce qui te fais du bien ?"/>
+      <Question content="qu’est-ce qui te fait du bien ?"/>
       <Shuffle data={data}/>
     </div>
   )

@@ -8,6 +8,14 @@
     a {
       font-family: "gastromond", sans-serif;
       font-size: 60px;
+      img {
+        animation: out 1s;
+      }
+      &:hover {
+        img {
+          animation: in 1s;
+        }
+      }
     }
   }
 
@@ -17,6 +25,14 @@
       font-size: 52px;
       font-style: italic;
       font-weight: bold;
+      img {
+        animation: out 1s;
+      }
+      &:hover {
+        img {
+          animation: in 1s;
+        }
+      }
     }
   }
 
@@ -26,6 +42,14 @@
       font-size: 52px;
       font-style: italic;
       font-weight: 700;
+      img {
+        animation: out 1s;
+      }
+      &:hover {
+        img {
+          animation: in 1s;
+        }
+      }
     }
   }
 
@@ -35,6 +59,14 @@
       font-size: 80px;
       font-style: italic;
       font-weight: 600;
+      img {
+        animation: out 1s;
+      }
+      &:hover {
+        img {
+          animation: in 1s;
+        }
+      }
     }
   }
 
@@ -44,6 +76,51 @@
       font-size: 40px;
       text-transform: uppercase;
       font-weight: 700;
+      img {
+        animation: bigger2In 1s;
+      }
+      &:hover {
+        img {
+          animation: bigger2Out 1s;
+        }
+      }
     }
   }
 }
+
+@keyframes in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+@keyframes out {
+  from {
+    transform: scale(2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes bigger2In {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+  }
+}
+
+@keyframes bigger2Out {
+  0% {
+    transform: scale(10);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

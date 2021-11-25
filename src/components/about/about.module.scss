@@ -18,6 +18,7 @@
 
   &__img {
     margin-left: 40px;
+    width: 40%;
   }
 
   &__background {
@@ -42,6 +43,7 @@
 .question {
   z-index: 20;
   position: fixed;
+  user-select: none;
   top: 40px;
   right: 40px;
   cursor: pointer;

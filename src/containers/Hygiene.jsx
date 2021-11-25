@@ -3,7 +3,7 @@ import Title from "../components/title/title";
 import Answer from "../components/answer/answer";
 import Question from "../components/question/question";
 import FlowerHygiene from "../components/svg/flower-hygiene";
-import BlobsSommeil from "../components/svg/blobs-sommeil";
+import BlobsMeal from "../components/svg/blobs-meal";
 import FlowerSommeil from "../components/svg/flower-sommeil";
 
 const Hygiene = () => {
@@ -17,7 +17,7 @@ const Hygiene = () => {
       <Question content="comment est-ce que tu qualifierais ton hygiène de vie ?"/>
       <FlowerHygiene/>
       <Question content="t’arrives-t-il de sauter des repas ?"/>
-      <BlobsSommeil/>
+      <BlobsMeal/>
       <Question content="combien d’heures dors-tu par nuit en semaine ?"/>
       <FlowerSommeil/>
     </>
