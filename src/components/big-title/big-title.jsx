@@ -5,7 +5,7 @@ const BigTitle = () => {
   return (
     <h1 className={styles.component}>
       Santé
-      <img src={Star} alt="purple star icon"/>
+      <img className={styles.star} src={Star} alt="purple star icon"/>
       mentale <br/>
       <span>chez les <span className={styles.uppercase}>BDDI</span> en 2022</span>
     </h1>

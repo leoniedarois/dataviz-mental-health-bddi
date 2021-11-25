@@ -4,6 +4,12 @@
   font-size: 72px;
   line-height: 40px;
 
+  .star {
+    &:hover {
+      animation: rotatiooon 2s;
+    }
+  }
+
   span {
     font-size: 36px;
     text-transform: lowercase;
@@ -13,3 +19,12 @@
 .uppercase {
    text-transform: uppercase !important;
  }
+
+@keyframes rotatiooon {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
