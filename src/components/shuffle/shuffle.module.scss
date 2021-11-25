@@ -1,0 +1,16 @@
+.component {
+  .quote {
+    font-size: 27px;
+    max-width: 60%;
+  }
+
+  &__illustration {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    path {
+      cursor: pointer;
+    }
+  }
+}

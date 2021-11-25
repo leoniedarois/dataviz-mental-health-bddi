@@ -6,6 +6,7 @@ import Mood from "./Mood"
 import '../Router.scss'
 import Confess from "./Confess"
 import Psy from "./Psy";
+import Sweet from "./Sweet";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
         <Route path="/hygiene" element={<Hygiene />} />
         <Route path="/confess" element={<Confess />} />
         <Route path="/psy" element={<Psy />} />
+        <Route path="/sweet" element={<Sweet />} />
       </Routes>
     </div>
   )

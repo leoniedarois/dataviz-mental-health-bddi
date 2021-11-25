@@ -5,6 +5,7 @@ import Answer from "../components/answer/answer";
 import Question from "../components/question/question";
 import ToggleMood from "../components/toggle-mood/toggle-mood";
 import Echelle from "../components/echelle/echelle";
+import {getData} from "../helper/fetch-data";
 
 const Mood = () => {
   const canvas = useRef(null)
@@ -17,18 +18,6 @@ const Mood = () => {
     ctx = canvas.current.getContext('2d')
     canvas.current.width = window.innerWidth / 2
     canvas.current.height = window.innerHeight
-  }
-
-  const getData = async () => {
-    const result = await fetch('data.json'
-      ,{
-        headers : {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
-      }
-    )
-    return result.json()
   }
 
   const drawRect = (x, y, w, h, colorFrom) => {
