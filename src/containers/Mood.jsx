@@ -1,16 +1,15 @@
 import '../Router.scss'
-import {useEffect, useRef, useState} from "react"
-import Title from "../components/title/title"
-import Answer from "../components/answer/answer";
-import Question from "../components/question/question";
-import ToggleMood from "../components/toggle-mood/toggle-mood";
-import Echelle from "../components/echelle/echelle";
-import {getData} from "../helper/fetch-data";
+import {useEffect, useRef, useState} from 'react'
+import Title from '../components/title/title'
+import Answer from '../components/answer/answer'
+import Question from '../components/question/question'
+import ToggleMood from '../components/toggle-mood/toggle-mood'
+import Echelle from '../components/echelle/echelle'
+import {getData} from '../helper/fetch-data'
 
 const Mood = () => {
   const canvas = useRef(null)
   const [isDay, setIsDay] = useState(true)
-
   const squareWidth = 90
   let ctx
 

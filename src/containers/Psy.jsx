@@ -1,8 +1,8 @@
-import Title from "../components/title/title"
-import Answer from "../components/answer/answer"
-import Question from "../components/question/question"
-import BlobsPsy from "../components/svg/blobs-psy"
-import FlowerPsy from "../components/svg/flower-psy"
+import Title from '../components/title/title'
+import Answer from '../components/answer/answer'
+import Question from '../components/question/question'
+import BlobsPsy from '../components/svg/blobs-psy'
+import FlowerPsy from '../components/svg/flower-psy'
 
 const Psy = () => {
   return (

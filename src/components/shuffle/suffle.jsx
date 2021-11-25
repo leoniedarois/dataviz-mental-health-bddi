@@ -1,5 +1,5 @@
 import styles from './shuffle.module.scss'
-import {useState} from "react";
+import {useState} from 'react'
 
 const Shuffle = ({data}) => {
   const [feelGood, setFeelGood] = useState('')

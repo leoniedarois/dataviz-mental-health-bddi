@@ -1,8 +1,8 @@
-import Title from "../components/title/title"
-import Question from "../components/question/question"
+import Title from '../components/title/title'
+import Question from '../components/question/question'
 import Shuffle from '../components/shuffle/suffle'
-import {useEffect, useState} from "react"
-import {getData} from "../helper/fetch-data"
+import {useEffect, useState} from 'react'
+import {getData} from '../helper/fetch-data'
 
 const Sweet = () => {
   const [data, setData] = useState()

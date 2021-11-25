@@ -1,5 +1,5 @@
 import styles from './echelle.module.scss'
-import EchelleItem from "../echelle-item/echelle-item";
+import EchelleItem from '../echelle-item/echelle-item'
 
 const Echelle = () => {
   return (

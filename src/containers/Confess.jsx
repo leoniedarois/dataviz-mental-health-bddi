@@ -1,9 +1,9 @@
-import Title from "../components/title/title";
-import Answer from "../components/answer/answer";
-import Question from "../components/question/question";
-import BlobsTabou from "../components/svg/blobs-tabou";
-import BlobsListen from "../components/svg/blobs-listen";
-import BlobsConfess from "../components/svg/blobs-confess";
+import Title from '../components/title/title'
+import Answer from '../components/answer/answer'
+import Question from '../components/question/question'
+import BlobsTabou from '../components/svg/blobs-tabou'
+import BlobsListen from '../components/svg/blobs-listen'
+import BlobsConfess from '../components/svg/blobs-confess'
 
 const Confess = () => {
   return (

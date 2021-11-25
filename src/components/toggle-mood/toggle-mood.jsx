@@ -1,4 +1,4 @@
-import styles from "./toggle-mood.module.scss"
+import styles from './toggle-mood.module.scss'
 
 const ToggleMood = ({onChange, value}) => {
   return (
