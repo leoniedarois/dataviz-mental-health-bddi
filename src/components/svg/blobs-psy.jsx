@@ -1,6 +1,7 @@
 import styles from './flower.hygiene.module.scss'
 
 const BlobsPsy = () => {
+
   return (
     <div className={styles.component}>
       <svg className={styles.flowerSvg} width="666" height="427" viewBox="0 0 666 427" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
