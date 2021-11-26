@@ -1,9 +1,13 @@
 import styles from './flower.hygiene.module.scss'
+import classNames from 'classnames'
 
-const FlowerSommeil = () => {
+const FlowerSommeil = ({addAnim}) => {
+  const activeClass = classNames({
+    [styles.flowerSvg]: addAnim,
+  })
   return (
     <div className={styles.component}>
-      <svg className={styles.flowerSvg} width="729" height="516" viewBox="0 0 729 516" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+      <svg className={activeClass} width="729" height="516" viewBox="0 0 729 516" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <path className={styles.first} d="M516.163 238.865C402.601 36.2778 225.671 60.7651 220.612 164.205C214.387 292.647 516.163 238.865 516.163 238.865Z" fill="#D95D71"/>
         <path className={styles.seconde} d="M516.163 238.865C394.706 532.334 243.115 546.033 175.733 395.894C107.25 243.318 516.163 238.865 516.163 238.865Z" fill="#F09065"/>
         <path className={styles.third} d="M516.164 238.865C535.913 317.801 529.126 374.895 489.114 364.436C449.102 353.977 516.164 238.865 516.164 238.865Z" fill="#EFCE67"/>

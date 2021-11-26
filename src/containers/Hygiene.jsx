@@ -7,8 +7,11 @@ import BlobsMeal from '../components/svg/blobs-meal'
 import FlowerSommeil from '../components/svg/flower-sommeil'
 import '../Router.scss'
 import ScrollTop from '../components/scroll-top/scroll-top'
+import {InView} from 'react-intersection-observer'
+import {useState} from "react";
 
 const Hygiene = () => {
+  const [addClass, setAddClass] = useState(false)
 
   return (
     <>
@@ -22,7 +25,9 @@ const Hygiene = () => {
       <Question content="t’arrives-t-il de sauter des repas ?"/>
       <BlobsMeal/>
       <Question content="combien d’heures dors-tu par nuit en semaine ?"/>
-      <FlowerSommeil/>
+      <InView as="div" onChange={(inView) => setAddClass(inView)}>
+        <FlowerSommeil addAnim={addClass}/>
+      </InView>
       <ScrollTop/>
     </>
   )

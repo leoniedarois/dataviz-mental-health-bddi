@@ -6,6 +6,7 @@ import FlowerPsy from '../components/svg/flower-psy'
 import ScrollTop from '../components/scroll-top/scroll-top'
 
 const Psy = () => {
+
   return (
     <>
       <Title content="les psy et les bddi" color={"#9567EF"}/>
@@ -15,7 +16,7 @@ const Psy = () => {
       <Question content="as-tu déjà consulté un·e psychologue ?"/>
       <FlowerPsy/>
       <Question content="si oui, estimes-tu que les consultations ont eu un impact positif sur ta santé mentale ?"/>
-      <BlobsPsy/>
+      <BlobsPsy />
       <ScrollTop/>
     </>
   )
