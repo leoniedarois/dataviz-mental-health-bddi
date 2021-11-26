@@ -1,6 +1,9 @@
 import styles from './menu.module.scss'
 import MenuItem from '../menu-item/menu-item'
 import mood from '../../assets/img/humeur.svg'
+import hygiene from '../../assets/img/hygiene.svg'
+import confess from '../../assets/img/confier.svg'
+import psy from '../../assets/img/psy.svg'
 
 const Menu = () => {
 
@@ -15,7 +18,7 @@ const Menu = () => {
     },
     {
       keyWord: 'hygiene',
-      image: '/src/assets/img/hygiene.svg',
+      image: hygiene,
       text: 'hygiène de vie',
       route: '/hygiene',
       question: 'Les BDDI estiment ne pas avoir une bonne hygiène de vie.',
@@ -23,7 +26,7 @@ const Menu = () => {
     },
     {
       keyWord: 'confess',
-      image: '/src/assets/img/confier.svg',
+      image: confess,
       text: 'se confier',
       route: '/confess',
       question: 'Les BDDI ont plutôt du mal à se confier.',
@@ -31,7 +34,7 @@ const Menu = () => {
     },
     {
       keyWord: 'psy',
-      image: '/src/assets/img/psy.svg',
+      image: psy,
       text: 'psy',
       route: '/psy',
       question: 'La majorité des BDDI a déjà consulté ou aimerait consulter un·e psychologue.',
