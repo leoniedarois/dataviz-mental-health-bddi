@@ -5,6 +5,7 @@ import Question from '../components/question/question'
 import FlowerHygiene from '../components/svg/flower-hygiene'
 import BlobsMeal from '../components/svg/blobs-meal'
 import FlowerSommeil from '../components/svg/flower-sommeil'
+import '../Router.scss'
 
 const Hygiene = () => {
 

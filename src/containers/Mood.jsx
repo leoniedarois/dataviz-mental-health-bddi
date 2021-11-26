@@ -5,7 +5,7 @@ import Answer from '../components/answer/answer'
 import Question from '../components/question/question'
 import ToggleMood from '../components/toggle-mood/toggle-mood'
 import Echelle from '../components/echelle/echelle'
-import {getData} from '../helper/fetch-data'
+import jsonData from '../assets/data/data.json'
 
 const Mood = () => {
   const canvas = useRef(null)
@@ -65,10 +65,8 @@ const Mood = () => {
   }
 
   useEffect(async ()=>{
-    const json = await getData()
-
     initCanvas()
-    createGrid(json)
+    createGrid(jsonData)
   },[isDay])
 
   const onChangeRadio = (e) => {

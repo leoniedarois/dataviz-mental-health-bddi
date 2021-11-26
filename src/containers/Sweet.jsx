@@ -2,14 +2,13 @@ import Title from '../components/title/title'
 import Question from '../components/question/question'
 import Shuffle from '../components/shuffle/suffle'
 import {useEffect, useState} from 'react'
-import {getData} from '../helper/fetch-data'
+import jsonData from '../assets/data/data.json'
 
 const Sweet = () => {
   const [data, setData] = useState()
 
   useEffect(async ()=>{
-    const json = await getData()
-    setData(json)
+    setData(jsonData)
   },[])
 
   return (
