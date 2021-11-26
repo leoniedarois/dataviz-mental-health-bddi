@@ -5,6 +5,12 @@
     user-select: none;
   }
 
+  .up {
+    &:hover {
+      animation: heyhey 1s;
+    }
+  }
+
   &__illustration {
     position: fixed;
     right: 0;
@@ -13,5 +19,14 @@
     path {
       cursor: pointer;
     }
+  }
+}
+
+@keyframes heyhey {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
   }
 }

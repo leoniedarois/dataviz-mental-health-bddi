@@ -1,12 +1,13 @@
 import styles from './menu.module.scss'
 import MenuItem from '../menu-item/menu-item'
+import mood from '../../assets/img/humeur.svg'
 
 const Menu = () => {
 
   const theme = [
     {
       keyWord: 'mood',
-      image: '/src/assets/img/humeur.svg',
+      image: mood,
       text: 'humeur',
       route: '/mood',
       question: 'Les BDDI se sentent bien.',
