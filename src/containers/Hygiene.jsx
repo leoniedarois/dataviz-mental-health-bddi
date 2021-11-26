@@ -6,6 +6,7 @@ import FlowerHygiene from '../components/svg/flower-hygiene'
 import BlobsMeal from '../components/svg/blobs-meal'
 import FlowerSommeil from '../components/svg/flower-sommeil'
 import '../Router.scss'
+import ScrollTop from '../components/scroll-top/scroll-top'
 
 const Hygiene = () => {
 
@@ -22,6 +23,7 @@ const Hygiene = () => {
       <BlobsMeal/>
       <Question content="combien d’heures dors-tu par nuit en semaine ?"/>
       <FlowerSommeil/>
+      <ScrollTop/>
     </>
   )
 }

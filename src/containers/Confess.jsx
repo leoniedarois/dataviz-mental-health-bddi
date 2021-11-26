@@ -4,6 +4,7 @@ import Question from '../components/question/question'
 import BlobsTabou from '../components/svg/blobs-tabou'
 import BlobsListen from '../components/svg/blobs-listen'
 import BlobsConfess from '../components/svg/blobs-confess'
+import ScrollTop from '../components/scroll-top/scroll-top'
 
 const Confess = () => {
   return (
@@ -19,6 +20,7 @@ const Confess = () => {
       <BlobsListen/>
       <Question content="Te sens-tu libre d’aborder le sujet de la santé mentale auprès de tes proches ?"/>
       <BlobsTabou/>
+      <ScrollTop/>
     </>
   )
 }

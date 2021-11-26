@@ -3,6 +3,7 @@ import Answer from '../components/answer/answer'
 import Question from '../components/question/question'
 import BlobsPsy from '../components/svg/blobs-psy'
 import FlowerPsy from '../components/svg/flower-psy'
+import ScrollTop from '../components/scroll-top/scroll-top'
 
 const Psy = () => {
   return (
@@ -15,6 +16,7 @@ const Psy = () => {
       <FlowerPsy/>
       <Question content="si oui, estimes-tu que les consultations ont eu un impact positif sur ta santé mentale ?"/>
       <BlobsPsy/>
+      <ScrollTop/>
     </>
   )
 }
