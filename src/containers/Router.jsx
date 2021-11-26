@@ -8,10 +8,12 @@ import Confess from './Confess'
 import Psy from './Psy'
 import Sweet from './Sweet'
 import About from '../components/about/about'
+import Loader from '../components/loader/loader'
 
 const Router = () => {
   return (
     <div className="container">
+      <Loader/>
       <About/>
       <Routes>
         <Route path="/" element={<Home />} />
