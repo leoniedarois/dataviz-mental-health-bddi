@@ -4,6 +4,7 @@ import mood from '../../assets/img/humeur.svg'
 import hygiene from '../../assets/img/hygiene.svg'
 import confess from '../../assets/img/confier.svg'
 import psy from '../../assets/img/psy.svg'
+import sweet from '../../assets/img/sweet.svg'
 
 const Menu = () => {
 
@@ -40,7 +41,7 @@ const Menu = () => {
       question: 'La majorité des BDDI a déjà consulté ou aimerait consulter un·e psychologue.',
       result: 'true'
     },
-    {keyWord: 'sweet', image: '/src/assets/img/douceur.svg', text: 'un peu de douceur', route: '/sweet'}
+    {keyWord: 'sweet', image: sweet, text: 'un peu de douceur', route: '/sweet'}
   ]
 
   return (
