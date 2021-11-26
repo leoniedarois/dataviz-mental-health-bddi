@@ -4,7 +4,7 @@ import mood from '../../assets/img/humeur.svg'
 import hygiene from '../../assets/img/hygiene.svg'
 import confess from '../../assets/img/confier.svg'
 import psy from '../../assets/img/psy.svg'
-import sweet from '../../assets/img/sweet.svg'
+import sweet from '../../assets/img/douceur.svg'
 
 const Menu = () => {
 
