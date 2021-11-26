@@ -25,9 +25,10 @@
     position: absolute;
     right: 0;
     bottom: -20px;
+    animation: upOut .5 forwards;
 
     &:hover {
-      animation: up .5s;
+      animation: upIn .5s forwards;
     }
   }
 
@@ -49,12 +50,20 @@
   cursor: pointer;
 }
 
-
-@keyframes up {
-  0% {
+@keyframes upIn {
+  from {
+    transform: translateY(10px);
+  }
+  to {
     transform: translateY(0);
   }
-  100% {
+}
+
+@keyframes upOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
     transform: translateY(10px);
   }
 }

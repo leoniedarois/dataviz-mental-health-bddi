@@ -21,7 +21,7 @@ const About = () => {
       {
         showSection &&
         <div className={styles.component}>
-          <img className={styles.component__background} src={blobsBackground} alt="super bloobs"/>
+          <img className={styles.component__background} src={blobsBackground} alt="super blobs"/>
           <div className="container">
             <h1 className={styles.component__title}>à propos</h1>
             <img src={wave} alt="wave"/>
