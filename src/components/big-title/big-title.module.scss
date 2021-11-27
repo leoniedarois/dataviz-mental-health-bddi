@@ -6,9 +6,14 @@
 
   @media screen and (max-width: 640px) {
     line-height: 60px;
+    font-size: 50px;
   }
 
   .star {
+    @media screen and (max-width: 640px) {
+      width: 40px;
+    }
+
     &:hover {
       animation: rotatiooon 2s;
     }
