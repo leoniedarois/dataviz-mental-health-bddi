@@ -4,10 +4,18 @@
     font-size: 72px;
     font-weight: bold;
     text-transform: uppercase;
+
+    @media screen and (max-width: 640px) {
+      font-size: 40px;
+    }
   }
 
   &__content {
     font-size: 48px;
+
+    @media screen and (max-width: 640px) {
+      font-size: 28px;
+    }
   }
 
   &__separator {

@@ -21,6 +21,10 @@
   border-radius: 36px;
   color: $black;
 
+  @media screen and (max-width: 640px) {
+    width: 60%;
+  }
+
   .close {
     cursor: pointer;
     margin-bottom: 10px;
@@ -30,6 +34,9 @@
     text-transform: uppercase;
     font-size: 64px;
     font-weight: 900;
+    @media screen and (max-width: 640px) {
+      font-size: 50px;
+    }
   }
 
   &__content {

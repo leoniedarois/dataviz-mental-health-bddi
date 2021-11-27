@@ -1,16 +1,27 @@
 .component {
   display: flex;
   position: relative;
+  @media screen and (max-width: 640px) {
+    justify-content: center;
+  }
 
   &__left {
     position: absolute;
     bottom: -30px;
     left: -40px;
+    @media screen and (max-width: 640px) {
+      bottom: -30px;
+      left: 0;
+    }
   }
 
   &__right {
     position: absolute;
     bottom: -30px;
     right: -40px;
+    @media screen and (max-width: 640px) {
+      bottom: -30px;
+      right: 0;
+    }
   }
 }

@@ -1,10 +1,21 @@
 .container {
   margin: 10vh 10vw;
+
+  @media screen and (max-width: 640px) {
+    margin: 10vh 10vw 20px 10vw;
+  }
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.wrapperMobile {
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
 }
 
 .marginTop {

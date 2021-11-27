@@ -7,7 +7,10 @@
   li:nth-child(1) {
     font-family: "gastromond", sans-serif;
     font-size: 60px;
-    img {
+    @media screen and (max-width: 640px) {
+      font-size: 50px;
+    }
+      img {
       animation: out 1s;
     }
     &:hover {

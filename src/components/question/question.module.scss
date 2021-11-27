@@ -6,4 +6,8 @@
   font-family: 'Laca', sans-serif;
   margin-bottom: 21px;
   user-select: none;
+
+  @media screen and (max-width: 640px) {
+   max-width: 100%;
+  }
 }

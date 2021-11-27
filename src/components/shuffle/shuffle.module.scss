@@ -3,6 +3,10 @@
     font-size: 27px;
     max-width: 55%;
     user-select: none;
+
+    @media screen and (max-width: 640px) {
+      max-width: 100%;
+    }
   }
 
   .up {
@@ -15,6 +19,11 @@
     position: fixed;
     right: 0;
     bottom: 0;
+
+    @media screen and (max-width: 640px) {
+      width: 100%;
+      height: auto;
+    }
 
     path {
       cursor: pointer;

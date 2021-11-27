@@ -3,6 +3,12 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  img {
+    @media screen and (max-width: 640px) {
+      width: 50%;
+    }
+  }
 }
 
 .separator {

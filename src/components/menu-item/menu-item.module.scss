@@ -6,6 +6,10 @@
   overflow: hidden;
   cursor: pointer;
 
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
+
   img {
     position: absolute;
     object-fit: cover;
@@ -13,10 +17,14 @@
     height: 100%;
 
   }
+
   span {
     z-index: 5;
     width: 60%;
     text-align: center;
+    @media screen and (max-width: 640px) {
+      width: auto;
+    }
   }
 
   &__link {

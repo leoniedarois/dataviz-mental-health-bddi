@@ -8,6 +8,9 @@
   border-radius: 30px;
   height: 15px;
   width: 515px;
+  @media screen and (max-width: 640px) {
+    width: 100%;
+  }
 
   .progressBar {
     height: 15px;
@@ -20,6 +23,9 @@
     overflow: hidden;
     animation: progressBar 2.5s ease-in-out forwards;
     display: block;
+    @media screen and (max-width: 640px) {
+      width: 100%;
+    }
   }
 }
 

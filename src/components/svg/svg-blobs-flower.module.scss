@@ -5,6 +5,12 @@
   justify-content: center;
   margin: 80px 0;
 
+  @media screen and (max-width: 640px) {
+    svg {
+      height: auto;
+    }
+  }
+
   &__number {
     div:nth-child(1) {
       position: absolute;

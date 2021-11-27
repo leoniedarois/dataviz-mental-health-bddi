@@ -84,7 +84,7 @@ const Mood = () => {
         Bonne nouvelle, les BDDI avaient plutôt le moral le jour où ils ont répondu au formulaire !
         On notera toutefois un bilan plus mitigé quand la question porte sur l’intégralité du mois de novembre.
       </Answer>
-      <div className="wrapper bigMargin">
+      <div className="wrapper bigMargin wrapperMobile">
         <div>
           <Question content="Comment te sens-tu ?"/>
           <ToggleMood value={isDay} onChange={onChangeRadio}/>

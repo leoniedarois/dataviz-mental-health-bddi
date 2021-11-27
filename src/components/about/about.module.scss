@@ -14,11 +14,19 @@
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 900;
+
+    @media screen and (max-width: 640px) {
+      font-size: 50px;
+    }
   }
 
   &__img {
     margin-left: 40px;
     width: 40%;
+    @media screen and (max-width: 640px) {
+      margin-left: 20px;
+      width: 85%;
+    }
   }
 
   &__background {
@@ -26,6 +34,9 @@
     right: 0;
     bottom: -20px;
     animation: upOut .5 forwards;
+    @media screen and (max-width: 640px) {
+      width: 50%;
+    }
 
     &:hover {
       animation: upIn .5s forwards;
@@ -34,10 +45,17 @@
 
   &__about {
     font-size: 38px;
+
+    @media screen and (max-width: 640px) {
+      font-size: 28px;
+    }
   }
 
   &__contact {
     font-size: 30px;
+    @media screen and (max-width: 640px) {
+      font-size: 20px;
+    }
   }
 }
 

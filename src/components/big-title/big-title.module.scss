@@ -4,6 +4,10 @@
   font-size: 72px;
   line-height: 40px;
 
+  @media screen and (max-width: 640px) {
+    line-height: 60px;
+  }
+
   .star {
     &:hover {
       animation: rotatiooon 2s;
@@ -14,11 +18,15 @@
     font-size: 36px;
     text-transform: lowercase;
     font-weight: 500;
+    @media screen and (max-width: 640px) {
+      font-size: 30px;
+    }
   }
 }
+
 .uppercase {
-   text-transform: uppercase !important;
- }
+  text-transform: uppercase !important;
+}
 
 @keyframes rotatiooon {
   0% {

@@ -1,4 +1,4 @@
-import styles from './flower.hygiene.module.scss'
+import styles from './svg-blobs-flower.module.scss'
 
 const FlowerPsy = () => {
   return (
