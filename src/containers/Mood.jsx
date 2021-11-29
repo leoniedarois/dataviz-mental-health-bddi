@@ -6,6 +6,7 @@ import Question from '../components/question/question'
 import ToggleMood from '../components/toggle-mood/toggle-mood'
 import Echelle from '../components/echelle/echelle'
 import jsonData from '../assets/data/data.json'
+import Pixel from "../components/pixel/pixel";
 
 const Mood = () => {
   const canvas = useRef(null)
@@ -19,7 +20,7 @@ const Mood = () => {
     canvas.current.height = window.innerHeight - 120
   }
 
-  const drawRect = (x, y, w, h, colorFrom) => {
+  const getPixelColor = (colorFrom) => {
     let color
     switch (colorFrom) {
       case 1:
@@ -41,7 +42,12 @@ const Mood = () => {
         color = ""
     }
 
-    ctx.fillStyle = color
+    return color
+  }
+
+  const drawRect = (x, y, w, h, colorFrom) => {
+
+    ctx.fillStyle = getPixelColor(colorFrom)
     ctx.fillRect(x, y, w, h)
     ctx.fill()
   }
@@ -94,7 +100,10 @@ const Mood = () => {
         </div>
       </div>
       <div className="center">
-        <canvas ref={canvas}/>
+        {/*<canvas ref={canvas}/>*/}
+        {
+          jsonData.map((index, item) => (<Pixel colorFrom={getPixelColor(isDay ? jsonData[item].day : jsonData[item].month)}/>))
+        }
       </div>
       <p>1 carré = 1 réponse d’un·e étudiant·e</p>
     </>

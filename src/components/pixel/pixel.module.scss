@@ -1,0 +1,9 @@
+.component {
+  height: 90px;
+  width: 90px;
+
+  @media screen and (max-width: 640px) {
+    height: 40px;
+    width: 40px;
+  }
+}
